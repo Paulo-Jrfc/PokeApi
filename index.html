@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Pokédex</h1>
+        <label for="region-select">Selecione a Região:</label>
+        <select id="region-select">
+            <option value="all">Todos</option>
+            <option value="kanto">Kanto</option>
+            <option value="johto">Johto</option>
+            <option value="hoenn">Hoenn</option>
+            <option value="sinnoh">Sinnoh</option>
+            <option value="unova">Unova</option>
+            <option value="kalos">Kalos</option>
+            <option value="alola">Alola</option>
+            <option value="galar">Galar</option>
+        </select>
+        <input type="text" id="search-bar" placeholder="Pesquisar Pokémon...">
+    </header>
+    <main>
+        <div id="pokemon-container" class="pokemon-container"></div>
+        <div id="pokemon-details" class="pokemon-details"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
